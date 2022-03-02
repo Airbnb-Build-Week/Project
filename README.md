@@ -55,43 +55,45 @@
 <ul>
   <li align="left">Weren't able to extract how good the pictures or how many photos there were in the listing</li>
   <li align="left">Historical data used was taken one day during each quarter of the year instead of sampling the year more in depth</li>
+  <li align="left">Not able to take into account the amount of bookings in the area already</li>
   <li align="left"></li>
-
 </ul>
 </p>
+
 <!-- NEXT STEPS FOR THE PROJECT -->
 <h3 align="left">Things we would change for the next version</h3>
 <p align="left">
-    
 <ul>
   <li align="left"></li>
   <li align="left"></li>
   <li align="left"></li>
-
 </ul>
 </p>
+
 <!-- CONTACT -->
 <h2 align="left">Contact</h2>
 <p align="left">
 <ul>
-  <li align="left">Andres Vidaurre - <a href="https://www.linkedin.com/in/andresvidaurre/">LinkedIn</a></li>
-  <li align="left">German Parra - <a href="http://linkedin.com/in/germanparrads">LinkedIn</a></li>
-  <li align="left">Mikayla Kosmala - <a href="https://www.linkedin.com/in/mikayla-kosmala/">LinkedIn</a></li>
+  <li align="left">Andres Vidaurre - <a href="https://www.linkedin.com/in/andresvidaurre/">LinkedIn</a> + <a href="https://github.com/andresmvidaurre">Github</a></li>
+  <li align="left">German Parra - <a href="http://linkedin.com/in/germanparrads">LinkedIn</a> + <a href="https://github.com/GermanParra">Github</a></li>
+  <li align="left">Mikayla Kosmala - <a href="https://www.linkedin.com/in/mikayla-kosmala/">LinkedIn</a> + <a href="https://github.com/Mikaykay">Github</a></li>
   <li align="left"></li>
 </ul>
 </p>
+
 <!-- LICENSE -->
 <h2 align="left">License</h2>
 <p align="left">
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 </p>
+
 <!-- ACKNOWLEDGMENTS -->
 <h2 align="left">Acknowledgments and Credits</h2>
 <ul>
   <li align="left"><a href="http://insideairbnb.com/about.html">Data from Inside Airbnb by Murray Cox</a></li>
   <li align="left"><a href="https://github.com/othneildrew/Best-README-Template">Best-README-Template by othneildrew</a></li>
+  <li align="left"><a href="https://html5up.net/">Forty by HTML5 Up</a></li>
 </ul>
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
