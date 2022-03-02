@@ -18,19 +18,9 @@
 
   <p align="center">
     Using booking data from AirBnB, AirBnB Optimal Price will allow a host to predict the trends for optimal pricing for their properties based on variables such as location, time of year and other considerations. The host will be able to manage multiple properties at different locations and be able to make adjustments to their expectations for booking, as well as what they should be charging.
-<!--    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>-->
-</div>
 
-<!-- PROJECT SHIELDS 
+<!-- PROJECT SHIELDS -->
+<!--
 *** I'm using markdown "reference style" links for readability.
 *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
 *** See the bottom of this document for the declaration of the reference variables
@@ -41,43 +31,77 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
+<!--[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]-->
+  </p>
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<h2 align="left">About The Project</h2>
+<p align="center">
+   How much is staying at your rental property worth? This can be a tricky number to set in 2022 with people antsy after the 2020 pandemic, the housing market rising to new highs, etc. This app is built to help hosts predict the price of their daily rate during the all seasons of the year. As people who have stayed at rentals on several occasions we take into account as much as possible when in comes to what your potential guests will look at and set an optimal price for your rental. 
+</p>
 
+<h3 align="left">What the application takes into account</h3>
+<p align="left">
+  The application takes into account where the rental is located, what time of the year it is, how many guests can be accomidated, the property type, etc. 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
+</p>
 
+<!-- FLAWS THE PROJECT -->
+<h3 align="left">Flaws in the data</h3>
+<p align="left">
+    There are a lot of data needs we wished were in the final project, but here a few:
+<ul>
+  <li align="left">Weren't able to extract how good the pictures or how many photos there were in the listing</li>
+  <li align="left">Historical data used was taken one day during each quarter of the year instead of sampling the year more in depth</li>
+  <li align="left"></li>
+
+</ul>
+</p>
+<!-- NEXT STEPS FOR THE PROJECT -->
+<h3 align="left">Things we would change for the next version</h3>
+<p align="left">
+    
+<ul>
+  <li align="left"></li>
+  <li align="left"></li>
+  <li align="left"></li>
+
+</ul>
+</p>
 <!-- CONTACT -->
-## Contact
-* **Andres Vidaurre** - [LinkedIn](https://www.linkedin.com/in/andresvidaurre/)
-* **German Parra** - [LinkedIn](https://www.linkedin.com/in/mikayla-kosmala/
-* **Mikayla Kosmala** - [LinkedIn](https://www.linkedin.com/in/mikayla-kosmala/)
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
+<h2 align="left">Contact</h2>
+<p align="left">
+<ul>
+  <li align="left">Andres Vidaurre - <a href="https://www.linkedin.com/in/andresvidaurre/">LinkedIn</a></li>
+  <li align="left">German Parra - <a href="http://linkedin.com/in/germanparrads">LinkedIn</a></li>
+  <li align="left">Mikayla Kosmala - <a href="https://www.linkedin.com/in/mikayla-kosmala/">LinkedIn</a></li>
+  <li align="left"></li>
+</ul>
+</p>
 <!-- LICENSE -->
-## License
-
+<h2 align="left">License</h2>
+<p align="left">
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
+</p>
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments and Credits
-
-* [Data from Inside Airbnb by Murray Cox](http://insideairbnb.com/about.html)
-* [Best-README-Template by othneildrew](https://github.com/othneildrew/Best-README-Template)
-* []()
+<h2 align="left">Acknowledgments and Credits</h2>
+<ul>
+  <li align="left"><a href="http://insideairbnb.com/about.html">Data from Inside Airbnb by Murray Cox</a></li>
+  <li align="left"><a href="https://github.com/othneildrew/Best-README-Template">Best-README-Template by othneildrew</a></li>
+</ul>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/Mikaykay/Lambda-Data-Science/blob/main/Unit-4/Sprint-4-Build-Week/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Airbnb-Build-Week/Project.svg?style=for-the-badge
+[contributors-url]: https://github.com/Airbnb-Build-Week/Project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Airbnb-Build-Week/Project.svg?style=for-the-badge
+[forks-url]: https://github.com/Airbnb-Build-Week/Project/network/members
+[stars-shield]: https://img.shields.io/github/stars/Airbnb-Build-Week/Project.svg?style=for-the-badge
+[stars-url]: https://github.com/Airbnb-Build-Week/Project/stargazers
+[license-shield]: https://img.shields.io/github/license/Airbnb-Build-Week/Project.svg?style=for-the-badge
+[license-url]: https://github.com/Airbnb-Build-Week/Project/LICENSE.txt
 [product-screenshot]: images/screenshot.png
