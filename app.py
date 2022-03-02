@@ -7,8 +7,8 @@ APP = Flask(__name__)
 
 # Load model
 
-with open("#", "rb") as f:
-    model = pickle.load(f)
+# with open("#", "rb") as f:
+#     model = pickle.load(f)
 
 
 @APP.route('/')
@@ -22,7 +22,7 @@ def prediction():
     long = request.form['long']
     room_type = request.form['room_type']
     accomodates = request.form['accomodates']
-    prj_length = request.form['length']
+    #prj_length = request.form['length']
     # ks = create_project_df(prj_name, prj_desc, prj_goal, prj_category, prj_length)
     # predify = model.predict(ks)
     # if predify == [0]:
