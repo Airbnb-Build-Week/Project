@@ -6,8 +6,10 @@ import pandas as pd
 APP = Flask(__name__)
 
 # Load model
+
 with open("#", "rb") as f:
     model = pickle.load(f)
+
 
 @APP.route('/')
 def Home_page():
