@@ -10,7 +10,7 @@ def Home_page():
     '''Landing page to the Kickstarter Prediction project'''
     return render_template('landing.html', title='Home')
 
-@APP.route('/', methods= ["POST"])
+@APP.route('/prediction', methods= ["POST"])
 def prediction():
     # Winter, Spring, Summer, Fall
     time_of_year = request.form['time_of_year'] #
@@ -40,8 +40,7 @@ def prediction():
     min_nights = request.form['min_nights']
     max_nights = request.form['max_nights']
 
-
-    # Dataframe to encode 
+    # Dataframe
     column_names = ['lat', 'lon', 'room_type', 'superhost', 'instant_bookable',
        'description_len', 'n_amenities', 'accommodates', 'n_bedrooms',
        'n_beds', 'n_baths', 'shared_baths', 'min_nights', 'max_nights',
@@ -73,4 +72,6 @@ def prediction():
            model_fall = pickle.load(f)
         pred = model_fall.predict(listing)
 
-    return render_template('landing.html')
+    return render_template('prediction.html',
+                            title='Prediction',
+                            prediction=pred)
