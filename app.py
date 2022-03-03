@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import pickle
+import joblib
 import pandas as pd
 
 # app instantiation
@@ -56,21 +57,17 @@ def prediction():
     # # Choose what time of year it is
     # # Run correct model
     if time_of_year == "Winter":
-        with open('ModelWinter.pkl', 'rb') as f:
-           model_winter = pickle.load(f)
-        pred = model_winter.predict(listing)
+      model_winter = joblib.load("ModelWinter")
+      pred = model_winter.predict(listing)
     elif time_of_year == "Spring":
-        with open('ModelSpring.pkl', 'rb') as f:
-           model_spring = pickle.load(f)
-        pred = model_spring.predict(listing)
+      model_spring = joblib.load("ModelSpring")
+      pred = model_spring.predict(listing)
     elif time_of_year == "Summer":
-        with open('ModelSummer.pkl', 'rb') as f:
-           model_summer = pickle.load(f)
-        pred = model_summer.predict(listing)
+      model_summer = joblib.load("ModelSummer")
+      pred = model_summer.predict(listing)
     elif time_of_year == "Fall":
-        with open('ModelFall.pkl', 'rb') as f:
-           model_fall = pickle.load(f)
-        pred = model_fall.predict(listing)
+      model_fall = joblib.load("ModelFall")
+      pred = model_fall.predict(listing)
 
     return render_template('prediction.html',
                             title='Prediction',
