@@ -41,7 +41,7 @@ def prediction():
     max_nights = request.form['max_nights']
 
 
-    # Dataframe to encode
+    # Dataframe to encode 
     column_names = ['lat', 'lon', 'room_type', 'superhost', 'instant_bookable',
        'description_len', 'n_amenities', 'accommodates', 'n_bedrooms',
        'n_beds', 'n_baths', 'shared_baths', 'min_nights', 'max_nights',
