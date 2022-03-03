@@ -74,7 +74,33 @@
 											<p></p>
 											<form method="post" action="/prediction">
 												<div class="fields">
-													<!-- Project name -->
+													<!-- time_of_year -->
+													<div class="field quarter">
+														<label for="category">Which season:</label>
+															<div>
+																<select name="time_of_year" id="category">
+																	<option value="winter">Winter</option>
+																	<option value="spring">Spring</option>
+																	<option value="summer">Summer</option>
+																	<option value="fall">Fall</option>
+																</select>
+															</div>
+													</div>
+													<!-- lat -->
+													<div class="field quarter">
+														<label for="category">Latitude:</label>
+															<div>
+																<textarea type="text" name="lat" id="lat"></textarea>
+															</div>
+													</div>
+													<!-- lon -->
+													<div class="field quarter">
+														<label for="blurb">Longitude:</label>
+															<div>
+																<textarea type="text" name="lon" id="lon"></textarea>
+															</div>
+													</div>
+													<!-- accomodates -->
 													<div class="field quarter">
 														<label for="category">How many guest can you accomodate:</label>
 															<div>
@@ -92,11 +118,75 @@
 																</select>
 															</div>
 													</div>
-													<!-- Project Description -->
+													<!-- n_bedrooms -->
 													<div class="field quarter">
 														<label for="category">How many bedrooms:</label>
 															<div>
 																<select name="n_bedrooms" id="category">
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																	<option value="6">6</option>
+																	<option value="7">7</option>
+																	<option value="8">8</option>
+																	<option value="9">9</option>
+																	<option value="10">10</option>
+																</select>
+															</div>
+													</div>
+													<!-- n_beds -->
+													<div class="field quarter">
+														<label for="category">How many beds:</label>
+															<div>
+																<select name="n_beds" id="category">
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																	<option value="6">6</option>
+																	<option value="7">7</option>
+																	<option value="8">8</option>
+																	<option value="9">9</option>
+																	<option value="10">10</option>
+																</select>
+															</div>
+													</div>
+													<!-- n_baths -->
+													<div class="field quarter">
+														<label for="category">How many bathrooms:</label>
+															<div>
+																<select name="n_baths" id="category">
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																	<option value="6">6</option>
+																	<option value="7">7</option>
+																	<option value="8">8</option>
+																	<option value="9">9</option>
+																	<option value="10">10</option>
+																</select>
+															</div>
+													</div>
+													<!-- shared_baths -->
+													<div class="field quarter">
+														<label for="category">How many bathrooms:</label>
+															<div>
+																<select name="shared_baths" id="category">
+																	<option value="1">Yes</option>
+																	<option value="0">No</option>
+																</select>
+															</div>
+													</div>
+													<!-- n_amenities -->
+													<div class="field quarter">
+														<label for="category">How many amenities:</label>
+															<div>
+																<select name="n_amenities" id="category">
 																	<option value="1">1</option>
 																	<option value="2">2</option>
 																	<option value="3">3</option>

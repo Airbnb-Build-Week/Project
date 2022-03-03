@@ -56,7 +56,6 @@
   <li align="left">Weren't able to extract how good the pictures or how many photos there were in the listing</li>
   <li align="left">Historical data used was taken one day during each quarter of the year instead of sampling the year more in depth</li>
   <li align="left">Not able to take into account the amount of bookings in the area already</li>
-  <li align="left"></li>
 </ul>
 </p>
 
@@ -64,9 +63,9 @@
 <h3 align="left">Things we would change for the next version</h3>
 <p align="left">
 <ul>
-  <li align="left"></li>
-  <li align="left"></li>
-  <li align="left"></li>
+  <li align="left">Instead of the host inputing their data we would ask for a url and webscrap the information ourselves</li>
+  <li align="left">Scrap more data to more accurately be able to predict yearly changes in prices</li>
+  <li align="left">Show more insights about the host's listing and ways they could improve</li>
 </ul>
 </p>
 
