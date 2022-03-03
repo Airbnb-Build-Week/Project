@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/rental icon.jpg" alt="Logo" width="200" height="200">
+    <img src="static/rental icon.jpg" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">AirBnB Optimizing Rental Prices</h3>
