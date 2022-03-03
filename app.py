@@ -5,12 +5,6 @@ import pandas as pd
 # app instantiation
 APP = Flask(__name__)
 
-# Load model
-
-# with open("#", "rb") as f:
-#     model = pickle.load(f)
-
-
 @APP.route('/')
 def Home_page():
     '''Landing page to the Kickstarter Prediction project'''
@@ -46,7 +40,27 @@ def prediction():
     min_nights = request.form['min_nights']
     max_nights = request.form['max_nights']
 
-    print(accomodates)
 
+    # Dataframe to encode
+    # cols = 
+    # listing = 
+    # # Choose what time of year it is
+    # # Run correct model
+    # if time_of_year == "Winter":
+    #     with open('ModelWinter.pkl', 'rb') as f:
+    #        model_winter = pickle.load(f)
+    #     pred = model_winter.predict(listing)
+    # elif time_of_year == "Spring":
+    #     with open('ModelSpring.pkl', 'rb') as f:
+    #        model_spring = pickle.load(f)
+    #     pred = model_spring.predict(listing)
+    # elif time_of_year == "Summer":
+    #     with open('ModelSummer.pkl', 'rb') as f:
+    #        model_summer = pickle.load(f)
+    #     pred = model_summer.predict(listing)
+    # elif time_of_year == "Fall":
+    #     with open('ModelFall.pkl', 'rb') as f:
+    #        model_fall = pickle.load(f)
+    #     pred = model_fall.predict(listing)
 
     return render_template('landing.html')
