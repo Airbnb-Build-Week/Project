@@ -11,6 +11,7 @@ scikit-learn = "*"
 category-encoders = "*"
 flask = "*"
 jinja2 = "*"
+joblib = "*"
 
 [dev-packages]
 
