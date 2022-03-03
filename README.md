@@ -76,7 +76,6 @@
   <li align="left">Andres Vidaurre - <a href="https://www.linkedin.com/in/andresvidaurre/">LinkedIn</a> + <a href="https://github.com/andresmvidaurre">Github</a></li>
   <li align="left">German Parra - <a href="http://linkedin.com/in/germanparrads">LinkedIn</a> + <a href="https://github.com/GermanParra">Github</a></li>
   <li align="left">Mikayla Kosmala - <a href="https://www.linkedin.com/in/mikayla-kosmala/">LinkedIn</a> + <a href="https://github.com/Mikaykay">Github</a></li>
-  <li align="left"></li>
 </ul>
 </p>
 
