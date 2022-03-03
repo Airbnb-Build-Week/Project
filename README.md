@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://airbnboptimalpriceds.herokuapp.com/">
     <img src="static/rental icon.jpg" alt="Logo" width="200" height="200">
   </a>
 
