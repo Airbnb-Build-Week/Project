@@ -309,10 +309,15 @@
 															</div>
 													</div>
 												</div>
-												<input type="submit" value="Submit">
+												<form action="/prediction" method="post">
+													<input type="submit" value="Submit">
+												</form>
 											</form>
 										</div>
 									</div>
+									<landing class="container">
+										{% block content %}
+										{% endblock %}	
 								</section>
 								<!--
 								<div class="row">
