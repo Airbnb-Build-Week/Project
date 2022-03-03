@@ -35,10 +35,10 @@
 
 				<!-- Banner -->
 				<!-- Note: The "styleN" class below should match that of the header element. -->
-					<section id="banner" class="style2" style="background-position: center 0px; background-image: url('../images/treehouse.jpg');">
+					<section id="banner" class="style2" style="background-position: center 0px; background-image: url('../static/treehouse.jpg');">
 						<div class="inner">
 							<span class="image">
-								<img src="{{url_for('static', filename='pic07.jpg')}}" alt="" />
+								<img src="{{url_for('static', filename='pic07.jpg')}}"/>
 							</span>
 							<header class="major">
 								<h1>AirBnB Optimal Price</h1>
@@ -98,6 +98,46 @@
 														<label for="blurb">Longitude:</label>
 															<div>
 																<textarea type="text" name="lon" id="lon"></textarea>
+															</div>
+													</div>
+													<!-- room_type -->
+													<div class="field quarter">
+														<label for="category">What is the room type of the listing:</label>
+															<div>
+																<select name="room_type" id="category">
+																	<option value="Entire home/apt">Entire home/apt</option>
+																	<option value="Hotel room">Hotel room</option>
+																	<option value="Private room">Private room</option>
+																	<option value="Shared Room">Shared Room</option>
+																</select>
+															</div>
+													</div>
+													<!-- super_host -->
+													<div class="field quarter">
+														<label for="category">Are you a super host:</label>
+															<div>
+																<select name="super_host" id="category">
+																	<option value="1">Yes</option>
+																	<option value="0">No</option>
+
+																</select>
+															</div>
+													</div>
+													<!-- instant_bookable -->
+													<div class="field quarter">
+														<label for="category">Is this listing instantly bookable?</label>
+															<div>
+																<select name="instant_bookable" id="category">
+																	<option value="1">Yes</option>
+																	<option value="0">No</option>
+																</select>
+															</div>
+													</div>
+													<!-- description -->
+													<div class="field quarter">
+														<label for="category">Please copy and paste your listing description:</label>
+															<div>
+																<textarea type="text" name="description" id="description"></textarea>
 															</div>
 													</div>
 													<!-- accomodates -->
@@ -174,7 +214,7 @@
 													</div>
 													<!-- shared_baths -->
 													<div class="field quarter">
-														<label for="category">How many bathrooms:</label>
+														<label for="category">Any shared bathrooms:</label>
 															<div>
 																<select name="shared_baths" id="category">
 																	<option value="1">Yes</option>
@@ -187,16 +227,84 @@
 														<label for="category">How many amenities:</label>
 															<div>
 																<select name="n_amenities" id="category">
-																	<option value="1">1</option>
-																	<option value="2">2</option>
-																	<option value="3">3</option>
-																	<option value="4">4</option>
 																	<option value="5">5</option>
-																	<option value="6">6</option>
-																	<option value="7">7</option>
-																	<option value="8">8</option>
-																	<option value="9">9</option>
 																	<option value="10">10</option>
+																	<option value="15">15</option>
+																	<option value="20">20</option>
+																	<option value="25">25</option>
+																	<option value="30">30</option>
+																	<option value="35">35</option>
+																	<option value="40">40</option>
+																	<option value="45">45</option>
+																	<option value="50">50</option>
+																</select>
+															</div>
+													</div>
+													<!-- host since -->
+													<div class="field quarter">
+														<label for="category">How many years have you been a host for:</label>
+															<div>
+																<textarea type="text" name="host_since" id="host_since"></textarea>
+															</div>
+													</div>
+													<!-- total_reviews -->
+													<div class="field quarter">
+														<label for="category">How many total reviews do you have:</label>
+															<div>
+																<select name="total_reviews" id="category">
+																	<option value="5">30</option>
+																	<option value="10">40</option>
+																	<option value="15">50</option>
+																	<option value="20">75</option>
+																	<option value="25">100</option>
+																	<option value="30">150</option>
+																	<option value="35">200</option>
+																	<option value="40">250</option>
+																	<option value="45">500</option>
+																	<option value="50">700</option>
+																</select>
+															</div>
+													</div>
+													<!-- total_satisfaction -->
+													<div class="field quarter">
+														<label for="category">What is your average total_satisfaction rating out of 5:</label>
+															<div>
+																<textarea type="text" name="total_satisfaction" id="total_satisfaction"></textarea>
+															</div>
+													</div>
+													<!-- min_nights -->
+													<div class="field quarter">
+														<label for="category">Minimum nights guests have to stay:</label>
+															<div>
+																<select name="min_nights" id="category">
+																	<option value="3">3</option>
+																	<option value="7">7</option>
+																	<option value="14">14</option>
+																	<option value="28">28</option>
+																	<option value="42">42</option>
+																	<option value="84">84</option>
+																	<option value="105">105</option>
+																	<option value="126">126</option>
+																	<option value="147">147</option>
+																	<option value="365">365</option>
+																</select>
+															</div>
+													</div>
+													<!-- max_nights -->
+													<div class="field quarter">
+														<label for="category">Maximum nights guests can stay:</label>
+															<div>
+																<select name="max_nights" id="category">
+																	<option value="3">3</option>
+																	<option value="7">7</option>
+																	<option value="14">14</option>
+																	<option value="28">28</option>
+																	<option value="42">42</option>
+																	<option value="84">84</option>
+																	<option value="105">105</option>
+																	<option value="126">126</option>
+																	<option value="147">147</option>
+																	<option value="365">365</option>
 																</select>
 															</div>
 													</div>
@@ -206,22 +314,7 @@
 										</div>
 									</div>
 								</section>
-								<section>
-									<a href="index.html" class="image">
-										<img src="{{url_for('static', filename='brick.jpg')}}" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Rhoncus magna</h3>
-											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											<ul class="actions">
-												<li><a href="index.html" class="button">Learn more</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
+								<!--
 								<div class="row">
 									<div class="column">
 									  <div class="card">
@@ -261,7 +354,7 @@
 										</div>
 									  </div>
 									</div>
-								  </div>
+								  </div>-->
 					</div>
 				<!-- Footer -->
 					<footer id="footer">
