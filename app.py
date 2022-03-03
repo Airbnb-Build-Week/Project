@@ -15,13 +15,13 @@ def prediction():
     # Winter, Spring, Summer, Fall
     time_of_year = request.form['time_of_year'] #
     # Latitude and Longitude
-    lat = request.form['lat']
-    lon = request.form['lon']
+    lat = float(request.form['lat'])
+    lon = float(request.form['lon'])
     # Room Type, Superhost, Instant Bookable, Description Length
     room_type = request.form['room_type']
-    super_host = request.form['superhost']
-    instant_bookable = request.form['instant_bookable']
-    description_len = request.form['description_len']
+    super_host = True if request.form['superhost']==1 else False
+    instant_bookable = True if request.form['instant_bookable']==1 else False
+    description_len = len(request.form['description_len'])
     # Accomodates, Bedrooms, Beds, Baths, Shared Baths, ppl_per_bed
     accommodates = int(request.form['accomodates']) #
     n_bedrooms = int(request.form['n_bedrooms']) #
@@ -34,7 +34,7 @@ def prediction():
     host_since = int(request.form['host_since'])
     host_experience_yrs = round(2021 - int(host_since))
     total_reviews = int(request.form['total_reviews'])
-    total_satisfaction = request.form['total_satisfaction'] # If we average the survey values then how are we going to ask 
+    total_satisfaction = float(request.form['total_satisfaction']) # If we average the survey values then how are we going to ask 
     reviews_per_month = total_reviews/(host_experience_yrs*12)
     # Min and Max nights
     min_nights = request.form['min_nights']
