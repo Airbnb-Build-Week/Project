@@ -16,7 +16,7 @@ def Home_page():
     '''Landing page to the Kickstarter Prediction project'''
     return render_template('landing.html', title='Home')
 
-@APP.route('/', methods= ["POST"])
+@APP.route('/prediction', methods= ["POST"])
 def prediction():
     # Winter, Spring, Summer, Fall
     time_of_year = request.form['time_of_year'] #
@@ -48,5 +48,10 @@ def prediction():
 
     print(accomodates)
 
+    predify = model.predict(airbnb)
+    pred_result = predify
 
-    return render_template('landing.html')
+
+    return render_template('prediction.html',
+                            title='Prediction',
+                            prediction=pred_result)
