@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://airbnboptimalpriceds.herokuapp.com/">
     <img src="static/rental icon.jpg" alt="Logo" width="200" height="200">
   </a>
 
@@ -76,7 +76,6 @@
   <li align="left">Andres Vidaurre - <a href="https://www.linkedin.com/in/andresvidaurre/">LinkedIn</a> + <a href="https://github.com/andresmvidaurre">Github</a></li>
   <li align="left">German Parra - <a href="http://linkedin.com/in/germanparrads">LinkedIn</a> + <a href="https://github.com/GermanParra">Github</a></li>
   <li align="left">Mikayla Kosmala - <a href="https://www.linkedin.com/in/mikayla-kosmala/">LinkedIn</a> + <a href="https://github.com/Mikaykay">Github</a></li>
-  <li align="left"></li>
 </ul>
 </p>
 
