@@ -12,6 +12,8 @@ category-encoders = "*"
 flask = "*"
 jinja2 = "*"
 joblib = "*"
+geopandas = "*"
+geopy = "*"
 
 [dev-packages]
 
