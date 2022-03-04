@@ -71,5 +71,4 @@ def prediction():
       pred = model_fall.predict(listing)
 
     return render_template('prediction.html',
-                            title='Prediction',
-                            prediction=pred)
+                            prediction="$" + str(round(pred[0]/3, 2)) + "/night")

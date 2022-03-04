@@ -28,8 +28,9 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
+							<li><a href="/">Home</a></li>
+							<li><a href="#one">Rental Forms</a></li>
+							<li><a href="#four">About the Team</a></li>
 						</ul>
 					</nav>
 
@@ -63,7 +64,7 @@
 						<!-- Commented out Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<a href="index.html" class="image">
+									<a href="" class="image">
 										<img src="{{url_for('static', filename='bath.jpg')}}" alt="" data-position="center center" />
 									</a>
 									<div class="content">
@@ -327,7 +328,31 @@
 									</header>
 								</div>
 							</section>
+							<section id="four">
+								<div id="wrapper">
+									<h1 style='text-align:center'>About The Team:</h1>
+						
+									<div style='text-align:center'><img src='/static/andres.jpg' width="183" height="200"></div>
+									<p style="text-align:center"><u>Andres Vidaurre</u></br>
+										About: My name's Jeff...</p>
+
+									<div style='text-align:center'><img src='/static/german.jpg' width="183" height="200"></div>
+									<p style="text-align:center"><u>German Parra</u></br>
+										About: I'm a curious person with passion for ML and Data. For this particular project I apply </br>
+										the skills I've developed through my experience and my studies on statistics and data science-related </br>
+										subjects to develop a ML random forest model capable of predicting the price of an Airbnb with great </br>
+										accuracy considering the available data.</p>
+								
+									<div style='text-align:center'><img src='/static/mikayla.jpg' width="183" height="200"></div>
+									<p style="text-align:center"><u>Mikayla Kosmala</u></br>
+										About: I'm a precise and quick learning individual. I have a passion for new technology and </br>
+										anything data related. This project I managed and set goals for the team as well as helped </br>
+										implement the model to work seemlessly with the application.</br></br></p>
+									
+								</div>
+							</section>
 					</div>
+
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
