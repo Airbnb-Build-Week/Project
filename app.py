@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import pickle
 import joblib
 import pandas as pd
+from geopy.geocoders import Nominatim
 
 # app instantiation
 APP = Flask(__name__)
@@ -16,8 +17,11 @@ def prediction():
     # Winter, Spring, Summer, Fall
     time_of_year = request.form['time_of_year'] #
     # Latitude and Longitude
-    lat = float(request.form['lat'])
-    lon = float(request.form['lon'])
+    geolocator = Nominatim(user_agent="airbnb")
+    address = request.form['addy']
+    location = geolocator.geocode(address)
+    lat = location.latitude
+    lon = location.longitude
     # Room Type, Superhost, Instant Bookable, Description Length
     room_type = request.form['room_type']
     super_host = True if request.form['super_host']=='1' else False
