@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: rgba(225, 90, 95, 0.95);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2938,7 +2938,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: rgba(72, 72, 72);
 		}
 
 			.spotlights > section > .image {
@@ -2957,7 +2957,7 @@ input, select, textarea {
 				}
 
 				.spotlights > section > .image:before {
-					background: rgba(36, 41, 67, 0.9);
+					background: rgba(72, 72, 72);
 					content: '';
 					display: block;
 					height: 100%;
@@ -3000,7 +3000,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: rgba(72, 72, 72);
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3114,7 +3114,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: rgba(255, 90, 95,0.95);
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3145,7 +3145,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
-				color: #242943;
+				color: rgba(255, 90, 95);
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3589,11 +3589,11 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: rgba(118, 118, 118);
 	}
 
 		#main > * {
-			border-top: solid 1px rgba(212, 212, 255, 0.1);
+			border-top: solid 1px rgba(118, 118, 118);
 		}
 
 			#main > *:first-child {
@@ -3618,7 +3618,7 @@ input, select, textarea {
 
 		#main.alt {
 			background-color: transparent;
-			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+			border-bottom: solid 1px rgba(118, 118, 118);
 		}
 
 /* Contact */
@@ -3714,8 +3714,8 @@ input, select, textarea {
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px rgba(212, 212, 255, 0.1);
-			color: rgba(244, 244, 255, 0.2);
+			border-left: solid 1px rgba(252, 251, 251, 0.95);
+			color: rgba(253, 249, 249, 0.95);
 			display: inline-block;
 			line-height: 1;
 			margin-left: 1em;
@@ -3798,7 +3798,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: rgba(0, 166, 153, 0.75);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -3926,7 +3926,7 @@ input, select, textarea {
 			}
 
 	body.is-ie #menu {
-		background: rgba(42, 47, 74, 0.975);
+		background: rgba(255, 90, 95, 0.95);
 	}
 
 	body.is-menu-visible #wrapper {
