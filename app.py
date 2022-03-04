@@ -42,7 +42,7 @@ def prediction():
     max_nights = int(request.form['max_nights'])
 
     # Dataframe
-    column_names = ['lat', 'lon', 'room_type', 'super_host', 'instant_bookable',
+    column_names = ['lat', 'lon', 'room_type', 'superhost', 'instant_bookable',
        'description_len', 'n_amenities', 'accommodates', 'n_bedrooms',
        'n_beds', 'n_baths', 'shared_baths', 'min_nights', 'max_nights',
        'reviews_per_month', 'total_reviews', 'total_satisfaction',
