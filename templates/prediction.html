@@ -3,7 +3,7 @@
 {% block content %}
 
 <h1 style='text-align:center'>We recommend listing your rental unit at:</h1>
-<p style="text-align:center;font-size:120%"> {{"$"+"{:.2}".format(prediction[0])}}</p>
+<p style="text-align:center;font-size:120%"> {{"$" + str(prediction[0][:3])}}</p>
 
 {% endblock %}
 
