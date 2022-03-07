@@ -10,8 +10,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://airbnboptimalpriceds.herokuapp.com/">
-    <img src="static/rental icon.jpg" alt="Logo" width="200" height="200">
+  <a href="https://codesignal.com/">
+    <img src="images/code_signal.jpg" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">AirBnB Optimizing Rental Prices</h3>
